@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: newvm
+Build-Jdk: 17.0.1
+Implementation-Title: Demo_SpringData_Pagination
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.th
+Implementation-URL: https://spring.io/projects/spring-boot/Demo_SpringDa
+ ta_Pagination
+Created-By: Maven Integration for Eclipse
+
