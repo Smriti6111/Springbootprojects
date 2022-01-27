@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title> login page </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<style type="text/css">
+
+    body{
+        background-color:gray;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        -webkit-background-size: cover;
+    }
+    .wrapper{
+        width: 500px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background:rgb(255, 51, 204,0.3);
+        border-radius: 70px 0 70px 0;
+
+
+    }
+
+    .wrapper h1{
+        text-align: center;
+        font-size: 30px;
+        margin: 0 auto;
+        font-family: monotype corsiva;
+        font-weight: bold;
+        color: white;
+        position: relative;
+        border-bottom: 5px solid red;
+        width: 80%;
+        border-radius: 70px;
+
+    }
+
+    .text{
+        width: 100%;
+        overflow: hidden;
+        padding-top: 5px;
+        font-size: 20px;
+        padding-left:50px;
+        padding-right: 50px;
+        text-align:center;
+        color: white;
+        font-family: monospace;
+    }
+
+</style>
+
+<body>
+
+<section class="container-fluid">
+    <div class="wrapper">
+        <h1> SIGN IN</h1>
+        <form action="#" th:action="@{/register}" method="POST">
+            <div class="text">
+                <div class="form-group"><label for="inputuser"> USER NAME
+                </label>
+                    <input type="text" id="inputuser" name="username" class="form-control bg-transparent text-info" placeholder =" enter User Name">
+                </div>
+            </div>
+            <div class="text">
+                <div class="form-group">
+                    <label for="inputpassword"> PASSWORD</label>
+                    <input type="password" name="password" class="form-control bg-transparent text-info" id="inputpassword" placeholder="enter password">
+                </div>
+            </div>
+            <div class="text">
+                <div class="form-group">
+                    <label for="inputpassword"> MOBILE NUMBER</label>
+                    <input type="password" name="mobile" class="form-control bg-transparent text-info" id="inputpassword" placeholder="enter password">
+                </div>
+            </div>
+            <div class="text">
+                <div class="form-group">
+                    <input type="submit" value="signup">
+                </div>
+
+            </div>
+        </form>
+    </div></section><script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+
