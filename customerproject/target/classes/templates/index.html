@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+Welcome to Customer project
+<h1> SIGN IN</h1>
+<form th:action="@{/rest}" method="POST">
+            <div class="text">
+                <div class="form-group"><label for="inputuser"> USER NAME
+                </label>
+                    <input type="text" id="inputuser" name="username" class="form-control bg-transparent text-info" placeholder =" enter User Name">
+                </div>
+            </div>
+            <div class="text">
+                <div class="form-group">
+                    <label for="inputpassword"> PASSWORD</label>
+                    <input type="password" name="password" class="form-control bg-transparent text-info" id="inputpassword" placeholder="enter password">
+                </div>
+            </div>
+            <div class="text">
+                <div class="form-group">
+                    <input type="submit" value="login">
+                </div>
+               <!--  <button th:href = "@{/signup}">signup</button> -->
+                
+                 <a th:href = "@{/signup}">sign up</a>
+                 
+            </div>
+        </form>
+
+</body>
+</html>

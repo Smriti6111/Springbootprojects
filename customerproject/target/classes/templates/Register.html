@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1> SIGN UP</h1>
+        <form action="#" th:action="@{/register}" method="POST">
+            <div class="text">
+                <div class="form-group"><label for="inputuser"> USER NAME
+                </label>
+                    <input type="text" id="inputuser" name="username" class="form-control bg-transparent text-info" placeholder =" enter User Name">
+                </div>
+            </div>
+            <div class="text">
+                <div class="form-group">
+                    <label for="inputpassword"> PASSWORD</label>
+                    <input type="password" name="password" class="form-control bg-transparent text-info" id="inputpassword" placeholder="enter password">
+                </div>
+            </div>
+            <div class="text">
+                <div class="form-group">
+                    <label for="inputpassword"> MOBILE NUMBER</label>
+                    <input type="password" name="mobile" class="form-control bg-transparent text-info" id="inputpassword" placeholder="enter password">
+                </div>
+            </div>
+            <div class="text">
+                <div class="form-group">
+                    <input type="submit" value="signup">
+                </div>
+
+            </div>
+        </form>
+</body>
+</html>
